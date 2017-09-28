@@ -25,12 +25,19 @@ Password EditText
 以上配置相对美观。
 
 其中
-petBorderColor--------> 设置边框颜色\n
-petBorderRadius-------> 设置边框圆角半径\n
-petBorderWidth--------> 设置边框宽度\n
-petPasswordColor------> 设置密码颜色\n
-petPasswordLength-----> 设置密码长度\n
-petPasswordWidth------> 设置密码宽度\n
+
+petBorderColor--------> 设置边框颜色
+
+petBorderRadius-------> 设置边框圆角半径
+
+petBorderWidth--------> 设置边框宽度
+
+petPasswordColor------> 设置密码颜色
+
+petPasswordLength-----> 设置密码长度
+
+petPasswordWidth------> 设置密码宽度
+
 
 
 
