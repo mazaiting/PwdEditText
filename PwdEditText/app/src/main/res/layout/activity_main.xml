@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@mipmap/bg_welcome"
+    tools:context="com.mazaiting.pwdedittext.MainActivity"
+    >
+
+  <com.mazaiting.PwdEditText
+      android:layout_centerHorizontal="true"
+      android:id="@+id/pet_password_welcome"
+      android:cursorVisible="false"
+      android:layout_width="300dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="25dp"
+      android:inputType="number"
+      android:maxLength="6"
+   />
+  <!--app:petBorderColor="#FFFFFF"
+      app:petBorderRadius="10dp"
+      app:petBorderWidth="1dp"
+      app:petPasswordColor="#EF5350"
+      app:petPasswordLength="6"
+      app:petPasswordWidth="10dp"-->
+
+  <Button
+      android:id="@+id/button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/pet_password_welcome"
+      android:layout_marginTop="20dp"
+      android:text="button" />
+</RelativeLayout>

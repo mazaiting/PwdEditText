@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="PwdEditText">
+    <!--边框颜色-->
+    <attr name="petBorderColor" format="color|reference"/>
+    <!--边框宽度-->
+    <attr name="petBorderWidth" format="dimension"/>
+    <!--边框半径-->
+    <attr name="petBorderRadius" format="dimension"/>
+    <!--密码颜色-->
+    <attr name="petPasswordColor" format="color|reference"/>
+    <!--密码宽度-->
+    <attr name="petPasswordWidth" format="dimension"/>
+    <!--密码半径-->
+    <attr name="petPasswordRadius" format="dimension"/>
+    <!--密码长度-->
+    <attr name="petPasswordLength" format="integer"/>
+  </declare-styleable>
+</resources>
